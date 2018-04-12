@@ -77,6 +77,4 @@
 	        </plugin>
 		</plugins>
 	</build>
-	<plugins>
-    </plugins>
 </project>
