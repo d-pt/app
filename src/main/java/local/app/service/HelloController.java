@@ -1,4 +1,4 @@
-package local.java8Prac.service;
+package local.app.service;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
