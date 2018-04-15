@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{fragment/layout}">
+<head>
+</head>
+<body>
+
+	<div layout:fragment="pageContent" class="panel panel-default">
+		<form>
+			<div class="form-group">
+				<label for="email">Email address:</label> 
+				<input type="email"
+					class="form-control" id="email">
+			</div>
+			<div class="form-group">
+				<label for="comment">Password:</label> 
+				<input type="password"
+					class="form-control" id="comment">
+			</div>
+			<!-- <div class="checkbox">
+				<label><input type="checkbox"> Remember me</label>
+			</div> -->
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
